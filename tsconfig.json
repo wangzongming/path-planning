@@ -1,0 +1,35 @@
+{
+    "workers": 4,
+    "async": false,
+    "useTypescriptIncrementalApi": true,
+    "watch": [
+        "src",
+    ],
+    "isolatedModules": false,
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "path-planning": [
+                "src"
+            ]
+        },
+        "module": "esnext",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": false,
+        "watch": true,
+        "jsx": "preserve",
+        "typeRoots": [],
+        "types": []
+    },
+    
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "workers": 4,
+    "async": false,
+    "useTypescriptIncrementalApi": true,
+    "watch": [
+        "src",
+    ],
+    "isolatedModules": false,
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "path-planning": [
+                "src"
+            ]
+        },
+        "module": "esnext",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": false,
+        "watch": true,
+        "jsx": "preserve",
+        "typeRoots": [],
+        "types": [],
+        "declaration": true,
+        "declarationDir": "./",
+        "target": "es6",
+        "outDir": "./dist",
+        "strictNullChecks": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true 
+    },
+    
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
